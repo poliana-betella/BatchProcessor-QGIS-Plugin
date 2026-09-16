@@ -1,0 +1,16 @@
+[general]
+name=BatchProcessor
+qgisMinimumVersion=3.16
+description=Ferramentas de produtividade para geoprocessamento em lote: operacoes geometricas em varias camadas de uma vez, dialogo de validacao/QC com preview categorizado antes de exportar, e uma ponte generica para rodar ferramentas de linha de comando externas (inclusive via WSL, no Windows).
+version=1.0.0
+author=Poliana Betella
+email=betella.poliana@gmail.com
+about=Conjunto de ferramentas para acelerar rotinas repetitivas de geoprocessamento no QGIS. Inclui: (1) processamento em lote de operacoes geometricas (buffer, corrigir geometrias, dissolver, reprojetar) aplicadas a varias camadas selecionadas de uma vez; (2) um dialogo de controle de qualidade que mostra um preview em memoria das feicoes classificadas, coloridas por categoria com legenda, antes de decidir se prossegue ou cancela; (3) uma ponte generica para executar ferramentas de linha de comando externas a partir do QGIS, incluindo suporte a ferramentas que só rodam em Linux via WSL quando o QGIS esta no Windows (com traducao automatica de caminho Windows/WSL e execucao assincrona que nao trava a interface).
+category=Vector
+tags=geoprocessamento,batch,qc,validacao,wsl,automacao,produtividade
+homepage=https://github.com/poliana-betella/BatchProcessor-QGIS-Plugin
+tracker=https://github.com/poliana-betella/BatchProcessor-QGIS-Plugin/issues
+repository=https://github.com/poliana-betella/BatchProcessor-QGIS-Plugin
+experimental=False
+deprecated=False
+server=False
